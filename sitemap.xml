@@ -4,38 +4,41 @@
   
   <url>
     <loc>https://beloys.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://beloys.github.io/post/10-tips-how-to-make-your-php-project-better/</loc>
-  </url>
-  
-  <url>
-    <loc>https://beloys.github.io/categories/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://beloys.github.io/tags/decorator/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://beloys.github.io/post/decorators-php/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://beloys.github.io/tags/patterns/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://beloys.github.io/tags/php/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://beloys.github.io/post/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://beloys.github.io/tags/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://beloys.github.io/categories/</loc>
   </url>
   
 </urlset>

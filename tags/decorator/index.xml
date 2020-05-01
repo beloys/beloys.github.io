@@ -6,6 +6,7 @@
     <description>Recent content in decorator on beloys.github.io Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://beloys.github.io/tags/decorator/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>Decorators in PHP</title>
       <link>https://beloys.github.io/post/decorators-php/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://beloys.github.io/post/decorators-php/</guid>
       <description>&lt;p&gt;PHP developers use decorator pattern usually in few cases. First of them - it&amp;rsquo;s logging and next one it&amp;rsquo;s caching.
