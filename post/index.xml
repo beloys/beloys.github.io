@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on beloys.github.io Blog</title>
+    <link>https://beloys.github.io/post/</link>
+    <description>Recent content in Posts on beloys.github.io Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://beloys.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decorators in PHP</title>
+      <link>https://beloys.github.io/post/decorators-php/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://beloys.github.io/post/decorators-php/</guid>
+      <description>&lt;p&gt;PHP developers use decorator pattern usually in few cases. First of them - it&amp;rsquo;s logging and next one it&amp;rsquo;s caching.
+I wanna show you additional examples, and maybe you will use it more in next projects.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
