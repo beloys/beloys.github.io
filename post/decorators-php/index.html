@@ -265,11 +265,11 @@ Let&rsquo;s ignore fixing of the problem and add another one - Cache invalidatio
 </code></pre></div><p>For clear understanding how to handle this set of classes, here an example of factory method.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">public function create(): UserStatProviderInterface {
     return new CacheUserStatProvider(
-        new CacheItemPool(),
         new LoggerUserStatProvider(
             new UserStatProvider(),
             new Logger()
-        )   
+        ),
+        new CacheItemPool()
     );
 }
 </code></pre></div><p>I prefer to use definitions in container config when it possible.</p>
