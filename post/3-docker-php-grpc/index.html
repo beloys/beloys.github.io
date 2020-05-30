@@ -178,9 +178,9 @@ xmlns="http://www.w3.org/2000/svg"
     <article  id="articleContent" class="post-content" style="position:relative;">
         <h2 id="benefits-of-grpc-in-microservice-architecture">Benefits of gRPC in microservice architecture</h2>
 <h4 id="1-strict-contract-for-api">1. Strict contract for API</h4>
-<p>Its one f the most required thing for me. API should strictly follow interface, no other way.</p>
+<p>Its one of the most required things for me. API should strictly follow interface, no other way. Interface first.</p>
 <h4 id="2-no-more-dto-needed">2. No more DTO needed</h4>
-<p>Protoc will generate all DTOs like clients and messages. No need more parse/map/hydrate responses.</p>
+<p>Protoc will generate all DTOs like clients and messages. No need parse/map/hydrate responses.</p>
 <h4 id="3-easy-to-communicate-between-microservices-written-in-different-languages">3. Easy to communicate between microservices written in different languages.</h4>
 <p>As proto file its just a contract and implementation encapsulated, we can easily rewrite microservice from scratch,
 and we just should implement interface. GRPC will take care about transport layer and adapter for the most popular languages.</p>
@@ -198,10 +198,10 @@ For this moment I recommend for usage <a href="https://roadrunner.dev">RoadRunne
 <h2 id="things-that-grpc-makes-more-complicated">Things that gRPC makes more complicated</h2>
 <ul>
 <li>Load balancing (because of keep alive connections)</li>
-<li>Http + JSON supported by 99.99% of languages. If you will wanna use any language that doesnt have gRPC library - you will got a big problem.</li>
+<li>Http + JSON supported by 99.99% of languages. If you will wanna use any language that doesn&rsquo;t have gRPC library - you will get a big problem.</li>
 </ul>
-<h3 id="here-how-looks-proto-file-its-just-an-interface-for-your-services">Here how looks proto file, its just an interface for your services</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-proto" data-lang="proto">syntax <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;proto3&#34;</span>;<span style="color:#960050;background-color:#1e0010">
+<h3 id="here-how-looks-proto-file">Here how looks proto file</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-protobuf" data-lang="protobuf">syntax <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;proto3&#34;</span>;<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#f92672">package</span> grpc<span style="color:#f92672">.</span>health.v1;<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010">
@@ -254,8 +254,8 @@ echo $reply-&gt;serializeToJsonString();
 <p>My recommendations:</p>
 <ul>
 <li>If you wanna speed up build time, store prebuilds in private Docker repository.</li>
-<li>Don&rsquo;t add to git any generated code, its just make a big mess in diff.</li>
-<li>Store proto files in different composer repositories, write hook that will collect all of them and execute protoc.</li>
+<li>Don&rsquo;t add to git any generated code, its just make a big mess in the diff.</li>
+<li>Store proto files in different composer repositories, write a hook that will collect all of them and execute protoc.</li>
 <li>If you use any queue (as RabbitMQ), you can store serialized data in message body and use the same DTO for sync and async communications.</li>
 </ul>
     </article>
